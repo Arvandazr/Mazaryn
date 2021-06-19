@@ -1,6 +1,8 @@
 from .serializers import PostSerializer, CommentSerializer
 from .models import Post, Comment
 
+from django.http import JsonResponse
+
 
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.decorators import action, permission_classes
